@@ -1,1 +1,0 @@
-C:\Windows\System32\Stellar-Repo\contract\target\wasm32-unknown-unknown\release\libgoinvest.rlib: C:\Windows\System32\Stellar-Repo\contract\src\lib.rs C:\Windows\System32\Stellar-Repo\contract\src\test.rs
