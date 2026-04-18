@@ -1,0 +1,316 @@
+   0.646984100s  INFO prepare_target{force=false package_id=goinvest v0.1.0 (C:\Users\Kiel\Desktop\Stellar-Repo\contract) target="goinvest"}: cargo::core::compiler::fingerprint: fingerprint error for goinvest v0.1.0 (C:\Users\Kiel\Desktop\Stellar-Repo\contract)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("goinvest", ["cdylib", "rlib"], "C:\\Users\\Kiel\\Desktop\\Stellar-Repo\\contract\\src\\lib.rs", Edition2021) }
+   0.647726800s  INFO prepare_target{force=false package_id=goinvest v0.1.0 (C:\Users\Kiel\Desktop\Stellar-Repo\contract) target="goinvest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\goinvest-26e95731ad19878c\lib-goinvest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.687186100s  INFO prepare_target{force=false package_id=soroban-sdk v22.0.11 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v22.0.11/Check { test: false }/TargetInner { doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-22.0.11\\src\\lib.rs", Edition2021) }
+   0.687244800s  INFO prepare_target{force=false package_id=soroban-sdk v22.0.11 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\soroban-sdk-a52b4a6dd318c08f\lib-soroban_sdk`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.708975900s  INFO prepare_target{force=false package_id=soroban-env-guest v22.1.3 target="soroban_env_guest"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-guest v22.1.3/Check { test: false }/TargetInner { ..: lib_target("soroban_env_guest", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-guest-22.1.3\\src\\lib.rs", Edition2021) }
+   0.709033100s  INFO prepare_target{force=false package_id=soroban-env-guest v22.1.3 target="soroban_env_guest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\soroban-env-guest-51fabd9255fd0070\lib-soroban_env_guest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.710661200s  INFO prepare_target{force=false package_id=soroban-env-common v22.1.3 target="soroban_env_common"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v22.1.3/Check { test: false }/TargetInner { ..: lib_target("soroban_env_common", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-22.1.3\\src\\lib.rs", Edition2021) }
+   0.710708800s  INFO prepare_target{force=false package_id=soroban-env-common v22.1.3 target="soroban_env_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\soroban-env-common-7a2fb27dd3a096f8\lib-soroban_env_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.711972100s  INFO prepare_target{force=false package_id=ethnum v1.5.2 target="ethnum"}: cargo::core::compiler::fingerprint: fingerprint error for ethnum v1.5.2/Check { test: false }/TargetInner { ..: lib_target("ethnum", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ethnum-1.5.2\\src\\lib.rs", Edition2021) }
+   0.712014200s  INFO prepare_target{force=false package_id=ethnum v1.5.2 target="ethnum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\ethnum-a8cfc2dcb2e62c2b\lib-ethnum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.713319000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.713353500s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\num-traits-67024926fcf7ed56\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.773226800s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint: fingerprint error for static_assertions v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("static_assertions", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\static_assertions-1.1.0\\src\\lib.rs", Edition2015) }
+   0.773286500s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\static_assertions-0c1617d0853feabf\lib-static_assertions`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.774425600s  INFO prepare_target{force=false package_id=stellar-xdr v22.1.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v22.1.0/Check { test: false }/TargetInner { ..: lib_target("stellar_xdr", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-22.1.0\\src\\lib.rs", Edition2021) }
+   0.774456800s  INFO prepare_target{force=false package_id=stellar-xdr v22.1.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\stellar-xdr-46c5e626cc05db6a\lib-stellar_xdr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.775456700s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for escape-bytes v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("escape_bytes", ["lib"], "C:\\Users\\Kiel\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\escape-bytes-0.1.1\\src\\lib.rs", Edition2021) }
+   0.775492900s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\escape-bytes-220822be8f9151d3\lib-escape_bytes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.825405400s  INFO prepare_target{force=false package_id=goinvest v0.1.0 (C:\Users\Kiel\Desktop\Stellar-Repo\contract) target="goinvest"}: cargo::core::compiler::fingerprint: fingerprint error for goinvest v0.1.0 (C:\Users\Kiel\Desktop\Stellar-Repo\contract)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("goinvest", ["cdylib", "rlib"], "C:\\Users\\Kiel\\Desktop\\Stellar-Repo\\contract\\src\\lib.rs", Edition2021) }
+   0.825456000s  INFO prepare_target{force=false package_id=goinvest v0.1.0 (C:\Users\Kiel\Desktop\Stellar-Repo\contract) target="goinvest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Kiel\Desktop\Stellar-Repo\contract\target\wasm32v1-none\debug\.fingerprint\goinvest-b53ae878571c7928\test-lib-goinvest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking escape-bytes v0.1.1
+    Checking num-traits v0.2.19
+    Checking ethnum v1.5.2
+    Checking static_assertions v1.1.0
+    Checking stellar-xdr v22.1.0
+    Checking soroban-env-common v22.1.3
+    Checking soroban-env-guest v22.1.3
+    Checking soroban-sdk v22.0.11
+error: could not compile `soroban-sdk` (lib) due to 162 previous errors
