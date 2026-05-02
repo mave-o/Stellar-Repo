@@ -176,8 +176,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🚀 GoInvest - Soroban Smart Contract Frontend</h1>
-        <p>Decentralized Investment Platform</p>
+        <h1>💹 GOInvest</h1>
+        <p>Decentralized Investment Platform for Philippine SMEs</p>
       </header>
 
       <main>
